@@ -1,0 +1,834 @@
+2020-08-25 18:37:44,259 WARN  [SoapUI] Missing folder [C:\Users\DineshMohanasundaram\Desktop\Rest Maven Project\my-app\ext] for external libraries
+2020-08-25 18:37:44,683 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\DineshMohanasundaram\soapui-settings.xml]
+2020-08-25 18:37:47,359 WARN  [SoapUI] Plugin 'ready-uxm-plugin-os-1.0.3.jar' is not loaded because it hasn't been signed by SmartBear Software.
+2020-08-25 18:37:48,465 INFO  [PluginManager] Adding plugin from [C:\Users\DineshMohanasundaram\.soapuios\plugins\readyapi-postman-1.0.1.jar]
+2020-08-25 18:37:48,465 INFO  [PluginManager] Adding plugin from [C:\Users\DineshMohanasundaram\.soapuios\plugins\soapui-swagger-plugin-2.2-dist.jar]
+2020-08-25 18:37:50,379 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2020-08-25 18:37:50,388 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:172)
+2020-08-25 18:37:50,990 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2020-08-25 18:37:50,998 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:172)
+2020-08-25 18:37:51,206 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2020-08-25 18:37:51,214 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:172)
+2020-08-25 18:37:51,466 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2020-08-25 18:37:51,468 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:172)
+2020-08-25 18:37:51,710 INFO  [PluginManager] Adding plugin from [C:\Users\DineshMohanasundaram\.soapuios\plugins\ready-mqtt-plugin-dist.jar]
+2020-08-25 18:37:52,629 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2020-08-25 18:37:52,631 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:172)
+2020-08-25 18:37:52,856 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2020-08-25 18:37:52,861 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:172)
+2020-08-25 18:37:53,095 INFO  [PluginManager] Adding plugin from [C:\Users\DineshMohanasundaram\.soapuios\plugins\readyapi-swaggerhub-plugin-1.0.jar]
+2020-08-25 18:37:53,911 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2020-08-25 18:37:53,916 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:172)
+2020-08-25 18:37:54,367 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2020-08-25 18:37:54,370 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:172)
+2020-08-25 18:37:55,051 INFO  [PluginManager] 4 plugins loaded in 6592 ms
+2020-08-25 18:37:55,051 INFO  [DefaultSoapUICore] All plugins loaded
+2020-08-25 18:37:57,982 INFO  [WsdlProject] Loaded project from [file:/C:/Users/DineshMohanasundaram/Desktop/Rest%20Maven%20Project/my-app/REST-Ecommerce-Project-soapui-project.xml]
+2020-08-25 18:37:58,001 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [REST Ecommerce Project]
+2020-08-25 18:37:58,012 INFO  [SoapUITestCaseRunner] Running Project [REST Ecommerce Project], runType = SEQUENTIAL
+2020-08-25 18:37:58,057 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Get Access Token]
+2020-08-25 18:37:58,065 INFO  [SoapUITestCaseRunner] running step [Get Access Token]
+2020-08-25 18:38:00,196 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:00,201 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:00,251 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Get Access Token], time taken: 1002ms, status: FINISHED
+2020-08-25 18:38:00,265 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Login Get User Details Logout]
+2020-08-25 18:38:00,267 INFO  [SoapUITestCaseRunner] running step [Login]
+2020-08-25 18:38:01,031 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:01,034 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:01,036 INFO  [SoapUITestCaseRunner] running step [Get User Details]
+2020-08-25 18:38:01,449 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:01,449 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:01,456 INFO  [SoapUITestCaseRunner] running step [Logout]
+2020-08-25 18:38:01,806 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:01,807 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Login Get User Details Logout], time taken: 1251ms, status: FINISHED
+2020-08-25 18:38:01,813 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add Delete Customer By Id]
+2020-08-25 18:38:01,815 INFO  [SoapUITestCaseRunner] running step [Login]
+2020-08-25 18:38:02,418 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:02,418 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:02,423 INFO  [SoapUITestCaseRunner] running step [Add Customer]
+2020-08-25 18:38:03,462 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:03,462 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:03,466 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-08-25 18:38:03,990 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:03,990 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:03,993 INFO  [SoapUITestCaseRunner] running step [Delete Customer By Id]
+2020-08-25 18:38:05,254 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:05,255 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id - Verify Deletion]
+2020-08-25 18:38:06,561 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:06,565 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:06,568 INFO  [SoapUITestCaseRunner] running step [Logout]
+2020-08-25 18:38:06,927 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:06,927 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add Delete Customer By Id], time taken: 4504ms, status: FINISHED
+2020-08-25 18:38:06,936 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add Customer Add Reward Points]
+2020-08-25 18:38:06,937 INFO  [SoapUITestCaseRunner] running step [Login]
+2020-08-25 18:38:07,529 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:07,537 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:07,542 INFO  [SoapUITestCaseRunner] running step [Add Customer]
+2020-08-25 18:38:07,936 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:07,937 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:07,939 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-08-25 18:38:08,493 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:08,493 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:08,496 INFO  [SoapUITestCaseRunner] running step [Add Reward Points to Customer By Id]
+2020-08-25 18:38:09,086 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:09,087 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id - Verify Reward]
+2020-08-25 18:38:09,508 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:09,509 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:09,512 INFO  [SoapUITestCaseRunner] running step [Delete Customer By Id]
+2020-08-25 18:38:09,892 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:09,893 INFO  [SoapUITestCaseRunner] running step [Logout]
+2020-08-25 18:38:10,368 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:10,369 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add Customer Add Reward Points], time taken: 3162ms, status: FINISHED
+2020-08-25 18:38:10,375 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add Get Product Category]
+2020-08-25 18:38:10,376 INFO  [SoapUITestCaseRunner] running step [Login]
+2020-08-25 18:38:11,065 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:11,069 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:11,072 INFO  [SoapUITestCaseRunner] running step [Fetch Product Category details from Excel]
+2020-08-25 18:38:11,951 INFO  [log] 2 and 3
+2020-08-25 18:38:11,973 INFO  [log] Computers & Accessories
+2020-08-25 18:38:12,000 INFO  [log] Computers & Accessories
+2020-08-25 18:38:12,001 INFO  [log] Description of the Computers & Accessories
+2020-08-25 18:38:12,018 INFO  [SoapUITestCaseRunner] running step [Add Product Category]
+2020-08-25 18:38:12,626 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:12,632 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:12,637 INFO  [SoapUITestCaseRunner] running step [Get Category Details By Id]
+2020-08-25 18:38:13,066 INFO  [log] [1791]
+2020-08-25 18:38:13,067 INFO  [log] 1791
+2020-08-25 18:38:13,096 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:13,106 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:13,122 INFO  [SoapUITestCaseRunner] running step [Logout]
+2020-08-25 18:38:13,502 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:13,503 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add Get Product Category], time taken: 2829ms, status: FINISHED
+2020-08-25 18:38:13,524 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Data driven - Add 10 customers Get Details Delete]
+2020-08-25 18:38:13,528 INFO  [SoapUITestCaseRunner] running step [Fetch data of 10 customers - Delete customer]
+2020-08-25 18:38:14,002 INFO  [log] 11 and 6
+2020-08-25 18:38:14,004 INFO  [log] Dinesh
+2020-08-25 18:38:14,007 INFO  [log] Test1
+2020-08-25 18:38:14,012 INFO  [log] dineshtest1@gmail.com
+2020-08-25 18:38:14,017 INFO  [log] passwordtest1
+2020-08-25 18:38:14,022 INFO  [log] passwordtest1
+2020-08-25 18:38:14,036 INFO  [log] 1-541-754-3313
+2020-08-25 18:38:14,111 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add Delete Customer By Id]
+2020-08-25 18:38:14,117 INFO  [SoapUITestCaseRunner] running step [Login]
+2020-08-25 18:38:14,518 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:14,523 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:14,524 INFO  [SoapUITestCaseRunner] running step [Add Customer]
+2020-08-25 18:38:14,900 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:14,901 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:14,919 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-08-25 18:38:15,282 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:15,283 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:15,289 INFO  [SoapUITestCaseRunner] running step [Delete Customer By Id]
+2020-08-25 18:38:15,747 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:15,758 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id - Verify Deletion]
+2020-08-25 18:38:16,127 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:16,127 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:16,134 INFO  [SoapUITestCaseRunner] running step [Logout]
+2020-08-25 18:38:16,534 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:16,536 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add Delete Customer By Id], time taken: 2291ms, status: FINISHED
+2020-08-25 18:38:16,541 INFO  [log] Status: FINISHED, time taken for TestCase was: 2291 ms
+2020-08-25 18:38:16,558 INFO  [log] Number of test steps which ran: 6
+2020-08-25 18:38:16,569 INFO  [log] Dinesh
+2020-08-25 18:38:16,569 INFO  [log] Test2
+2020-08-25 18:38:16,570 INFO  [log] dineshtest2@gmail.com
+2020-08-25 18:38:16,571 INFO  [log] passwordtest2
+2020-08-25 18:38:16,574 INFO  [log] passwordtest2
+2020-08-25 18:38:16,575 INFO  [log] 1-541-754-4313
+2020-08-25 18:38:16,578 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add Delete Customer By Id]
+2020-08-25 18:38:16,582 INFO  [SoapUITestCaseRunner] running step [Login]
+2020-08-25 18:38:17,066 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:17,068 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:17,069 INFO  [SoapUITestCaseRunner] running step [Add Customer]
+2020-08-25 18:38:17,727 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:17,732 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:17,733 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-08-25 18:38:18,090 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:18,090 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:18,091 INFO  [SoapUITestCaseRunner] running step [Delete Customer By Id]
+2020-08-25 18:38:18,463 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:18,465 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id - Verify Deletion]
+2020-08-25 18:38:18,804 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:18,805 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:18,806 INFO  [SoapUITestCaseRunner] running step [Logout]
+2020-08-25 18:38:19,147 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:19,150 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add Delete Customer By Id], time taken: 2501ms, status: FINISHED
+2020-08-25 18:38:19,155 INFO  [log] Status: FINISHED, time taken for TestCase was: 2501 ms
+2020-08-25 18:38:19,156 INFO  [log] Number of test steps which ran: 6
+2020-08-25 18:38:19,157 INFO  [log] Dinesh
+2020-08-25 18:38:19,158 INFO  [log] Test3
+2020-08-25 18:38:19,166 INFO  [log] dineshtest3@gmail.com
+2020-08-25 18:38:19,167 INFO  [log] passwordtest3
+2020-08-25 18:38:19,168 INFO  [log] passwordtest3
+2020-08-25 18:38:19,171 INFO  [log] 1-541-754-5313
+2020-08-25 18:38:19,172 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add Delete Customer By Id]
+2020-08-25 18:38:19,182 INFO  [SoapUITestCaseRunner] running step [Login]
+2020-08-25 18:38:19,599 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:19,604 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:19,606 INFO  [SoapUITestCaseRunner] running step [Add Customer]
+2020-08-25 18:38:19,951 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:19,951 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:19,956 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-08-25 18:38:20,316 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:20,318 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:20,321 INFO  [SoapUITestCaseRunner] running step [Delete Customer By Id]
+2020-08-25 18:38:20,691 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:20,693 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id - Verify Deletion]
+2020-08-25 18:38:21,246 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:21,246 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:21,247 INFO  [SoapUITestCaseRunner] running step [Logout]
+2020-08-25 18:38:21,613 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:21,613 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add Delete Customer By Id], time taken: 2355ms, status: FINISHED
+2020-08-25 18:38:21,620 INFO  [log] Status: FINISHED, time taken for TestCase was: 2355 ms
+2020-08-25 18:38:21,630 INFO  [log] Number of test steps which ran: 6
+2020-08-25 18:38:21,635 INFO  [log] Dinesh
+2020-08-25 18:38:21,642 INFO  [log] Test4
+2020-08-25 18:38:21,646 INFO  [log] dineshtest4@gmail.com
+2020-08-25 18:38:21,648 INFO  [log] passwordtest4
+2020-08-25 18:38:21,652 INFO  [log] passwordtest4
+2020-08-25 18:38:21,653 INFO  [log] 1-541-754-6313
+2020-08-25 18:38:21,654 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add Delete Customer By Id]
+2020-08-25 18:38:21,657 INFO  [SoapUITestCaseRunner] running step [Login]
+2020-08-25 18:38:22,007 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:22,007 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:22,013 INFO  [SoapUITestCaseRunner] running step [Add Customer]
+2020-08-25 18:38:22,462 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:22,464 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:22,465 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-08-25 18:38:22,852 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:22,853 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:22,854 INFO  [SoapUITestCaseRunner] running step [Delete Customer By Id]
+2020-08-25 18:38:23,222 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:23,223 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id - Verify Deletion]
+2020-08-25 18:38:23,728 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:23,729 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:23,731 INFO  [SoapUITestCaseRunner] running step [Logout]
+2020-08-25 18:38:24,128 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:24,129 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add Delete Customer By Id], time taken: 2394ms, status: FINISHED
+2020-08-25 18:38:24,134 INFO  [log] Status: FINISHED, time taken for TestCase was: 2394 ms
+2020-08-25 18:38:24,136 INFO  [log] Number of test steps which ran: 6
+2020-08-25 18:38:24,137 INFO  [log] Dinesh
+2020-08-25 18:38:24,140 INFO  [log] Test5
+2020-08-25 18:38:24,151 INFO  [log] dineshtest5@gmail.com
+2020-08-25 18:38:24,153 INFO  [log] passwordtest5
+2020-08-25 18:38:24,155 INFO  [log] passwordtest5
+2020-08-25 18:38:24,159 INFO  [log] 1-541-754-7313
+2020-08-25 18:38:24,162 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add Delete Customer By Id]
+2020-08-25 18:38:24,163 INFO  [SoapUITestCaseRunner] running step [Login]
+2020-08-25 18:38:24,751 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:24,751 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:24,755 INFO  [SoapUITestCaseRunner] running step [Add Customer]
+2020-08-25 18:38:25,133 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:25,134 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:25,137 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-08-25 18:38:25,495 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:25,496 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:25,498 INFO  [SoapUITestCaseRunner] running step [Delete Customer By Id]
+2020-08-25 18:38:25,895 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:25,896 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id - Verify Deletion]
+2020-08-25 18:38:26,366 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:26,368 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:26,371 INFO  [SoapUITestCaseRunner] running step [Logout]
+2020-08-25 18:38:26,725 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:26,730 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add Delete Customer By Id], time taken: 2477ms, status: FINISHED
+2020-08-25 18:38:26,732 INFO  [log] Status: FINISHED, time taken for TestCase was: 2477 ms
+2020-08-25 18:38:26,733 INFO  [log] Number of test steps which ran: 6
+2020-08-25 18:38:26,736 INFO  [log] Dinesh
+2020-08-25 18:38:26,737 INFO  [log] Test6
+2020-08-25 18:38:26,745 INFO  [log] dineshtest6@gmail.com
+2020-08-25 18:38:26,748 INFO  [log] passwordtest6
+2020-08-25 18:38:26,749 INFO  [log] passwordtest6
+2020-08-25 18:38:26,754 INFO  [log] 1-541-754-8313
+2020-08-25 18:38:26,755 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add Delete Customer By Id]
+2020-08-25 18:38:26,760 INFO  [SoapUITestCaseRunner] running step [Login]
+2020-08-25 18:38:27,316 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:27,316 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:27,317 INFO  [SoapUITestCaseRunner] running step [Add Customer]
+2020-08-25 18:38:27,694 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:27,694 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:27,698 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-08-25 18:38:28,210 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:28,211 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:28,213 INFO  [SoapUITestCaseRunner] running step [Delete Customer By Id]
+2020-08-25 18:38:28,575 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:28,576 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id - Verify Deletion]
+2020-08-25 18:38:28,930 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:28,930 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:28,931 INFO  [SoapUITestCaseRunner] running step [Logout]
+2020-08-25 18:38:29,431 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:29,432 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add Delete Customer By Id], time taken: 2614ms, status: FINISHED
+2020-08-25 18:38:29,438 INFO  [log] Status: FINISHED, time taken for TestCase was: 2614 ms
+2020-08-25 18:38:29,442 INFO  [log] Number of test steps which ran: 6
+2020-08-25 18:38:29,444 INFO  [log] Dinesh
+2020-08-25 18:38:29,445 INFO  [log] Test7
+2020-08-25 18:38:29,448 INFO  [log] dineshtest7@gmail.com
+2020-08-25 18:38:29,450 INFO  [log] passwordtest7
+2020-08-25 18:38:29,453 INFO  [log] passwordtest7
+2020-08-25 18:38:29,455 INFO  [log] 1-541-754-9313
+2020-08-25 18:38:29,461 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add Delete Customer By Id]
+2020-08-25 18:38:29,462 INFO  [SoapUITestCaseRunner] running step [Login]
+2020-08-25 18:38:29,890 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:29,893 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:29,897 INFO  [SoapUITestCaseRunner] running step [Add Customer]
+2020-08-25 18:38:30,467 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:30,468 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:30,469 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-08-25 18:38:30,847 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:30,848 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:30,851 INFO  [SoapUITestCaseRunner] running step [Delete Customer By Id]
+2020-08-25 18:38:31,385 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:31,385 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id - Verify Deletion]
+2020-08-25 18:38:31,774 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:31,776 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:31,777 INFO  [SoapUITestCaseRunner] running step [Logout]
+2020-08-25 18:38:32,120 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:32,121 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add Delete Customer By Id], time taken: 2592ms, status: FINISHED
+2020-08-25 18:38:32,127 INFO  [log] Status: FINISHED, time taken for TestCase was: 2592 ms
+2020-08-25 18:38:32,131 INFO  [log] Number of test steps which ran: 6
+2020-08-25 18:38:32,132 INFO  [log] Dinesh
+2020-08-25 18:38:32,132 INFO  [log] Test8
+2020-08-25 18:38:32,133 INFO  [log] dineshtest8@gmail.com
+2020-08-25 18:38:32,136 INFO  [log] passwordtest8
+2020-08-25 18:38:32,137 INFO  [log] passwordtest8
+2020-08-25 18:38:32,143 INFO  [log] 1-541-754-10313
+2020-08-25 18:38:32,144 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add Delete Customer By Id]
+2020-08-25 18:38:32,144 INFO  [SoapUITestCaseRunner] running step [Login]
+2020-08-25 18:38:32,494 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:32,505 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:32,507 INFO  [SoapUITestCaseRunner] running step [Add Customer]
+2020-08-25 18:38:33,525 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:33,525 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:33,532 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-08-25 18:38:34,057 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:34,057 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:34,058 INFO  [SoapUITestCaseRunner] running step [Delete Customer By Id]
+2020-08-25 18:38:34,402 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:34,405 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id - Verify Deletion]
+2020-08-25 18:38:34,987 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:34,991 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:34,994 INFO  [SoapUITestCaseRunner] running step [Logout]
+2020-08-25 18:38:35,376 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:35,377 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add Delete Customer By Id], time taken: 3136ms, status: FINISHED
+2020-08-25 18:38:35,383 INFO  [log] Status: FINISHED, time taken for TestCase was: 3136 ms
+2020-08-25 18:38:35,388 INFO  [log] Number of test steps which ran: 6
+2020-08-25 18:38:35,389 INFO  [log] Dinesh
+2020-08-25 18:38:35,392 INFO  [log] Test9
+2020-08-25 18:38:35,392 INFO  [log] dineshtest9@gmail.com
+2020-08-25 18:38:35,397 INFO  [log] passwordtest9
+2020-08-25 18:38:35,397 INFO  [log] passwordtest9
+2020-08-25 18:38:35,398 INFO  [log] 1-541-754-11313
+2020-08-25 18:38:35,400 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add Delete Customer By Id]
+2020-08-25 18:38:35,403 INFO  [SoapUITestCaseRunner] running step [Login]
+2020-08-25 18:38:35,764 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:35,767 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:35,771 INFO  [SoapUITestCaseRunner] running step [Add Customer]
+2020-08-25 18:38:36,137 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:36,139 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:36,141 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-08-25 18:38:36,608 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:36,608 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:36,609 INFO  [SoapUITestCaseRunner] running step [Delete Customer By Id]
+2020-08-25 18:38:37,563 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:37,564 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id - Verify Deletion]
+2020-08-25 18:38:37,899 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:37,900 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:37,903 INFO  [SoapUITestCaseRunner] running step [Logout]
+2020-08-25 18:38:38,431 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:38,434 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add Delete Customer By Id], time taken: 2961ms, status: FINISHED
+2020-08-25 18:38:38,438 INFO  [log] Status: FINISHED, time taken for TestCase was: 2961 ms
+2020-08-25 18:38:38,440 INFO  [log] Number of test steps which ran: 6
+2020-08-25 18:38:38,441 INFO  [log] Dinesh
+2020-08-25 18:38:38,444 INFO  [log] Test100
+2020-08-25 18:38:38,445 INFO  [log] dineshtest100@gmail.com
+2020-08-25 18:38:38,447 INFO  [log] passwordtest100
+2020-08-25 18:38:38,448 INFO  [log] passwordtest100
+2020-08-25 18:38:38,450 INFO  [log] 1-541-754-12313
+2020-08-25 18:38:38,457 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add Delete Customer By Id]
+2020-08-25 18:38:38,457 INFO  [SoapUITestCaseRunner] running step [Login]
+2020-08-25 18:38:38,861 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:38,873 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:38,876 INFO  [SoapUITestCaseRunner] running step [Add Customer]
+2020-08-25 18:38:39,470 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:39,471 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:39,474 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-08-25 18:38:39,853 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:39,856 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:39,857 INFO  [SoapUITestCaseRunner] running step [Delete Customer By Id]
+2020-08-25 18:38:40,204 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:40,205 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id - Verify Deletion]
+2020-08-25 18:38:40,609 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:40,611 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:40,612 INFO  [SoapUITestCaseRunner] running step [Logout]
+2020-08-25 18:38:41,159 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:41,160 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add Delete Customer By Id], time taken: 2622ms, status: FINISHED
+2020-08-25 18:38:41,161 INFO  [log] Status: FINISHED, time taken for TestCase was: 2622 ms
+2020-08-25 18:38:41,163 INFO  [log] Number of test steps which ran: 6
+2020-08-25 18:38:41,170 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Data driven - Add 10 customers Get Details Delete], time taken: 27635ms, status: FINISHED
+2020-08-25 18:38:41,178 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Data driven - Add 10 customers Add reward points Delete]
+2020-08-25 18:38:41,181 INFO  [SoapUITestCaseRunner] running step [Fetch data of 10 customers - Reward points]
+2020-08-25 18:38:41,567 INFO  [log] 11 and 6
+2020-08-25 18:38:41,568 INFO  [log] Dinesh
+2020-08-25 18:38:41,577 INFO  [log] Test11
+2020-08-25 18:38:41,580 INFO  [log] dineshtest11@gmail.com
+2020-08-25 18:38:41,582 INFO  [log] passwordtest11
+2020-08-25 18:38:41,585 INFO  [log] passwordtest11
+2020-08-25 18:38:41,591 INFO  [log] 1-541-754-3313
+2020-08-25 18:38:41,595 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add Customer Add Reward Points]
+2020-08-25 18:38:41,599 INFO  [SoapUITestCaseRunner] running step [Login]
+2020-08-25 18:38:42,048 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:42,054 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:42,062 INFO  [SoapUITestCaseRunner] running step [Add Customer]
+2020-08-25 18:38:42,459 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:42,460 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:42,462 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-08-25 18:38:42,848 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:42,848 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:42,850 INFO  [SoapUITestCaseRunner] running step [Add Reward Points to Customer By Id]
+2020-08-25 18:38:43,270 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:43,271 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id - Verify Reward]
+2020-08-25 18:38:43,656 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:43,656 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:43,664 INFO  [SoapUITestCaseRunner] running step [Delete Customer By Id]
+2020-08-25 18:38:44,184 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:44,186 INFO  [SoapUITestCaseRunner] running step [Logout]
+2020-08-25 18:38:44,570 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:44,576 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add Customer Add Reward Points], time taken: 2867ms, status: FINISHED
+2020-08-25 18:38:44,581 INFO  [log] Status: FINISHED, time taken for TestCase was: 2867 ms
+2020-08-25 18:38:44,585 INFO  [log] Number of test steps which ran: 7
+2020-08-25 18:38:44,592 INFO  [log] Dinesh
+2020-08-25 18:38:44,594 INFO  [log] Test12
+2020-08-25 18:38:44,596 INFO  [log] dineshtest12@gmail.com
+2020-08-25 18:38:44,598 INFO  [log] passwordtest12
+2020-08-25 18:38:44,602 INFO  [log] passwordtest12
+2020-08-25 18:38:44,603 INFO  [log] 1-541-754-4313
+2020-08-25 18:38:44,604 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add Customer Add Reward Points]
+2020-08-25 18:38:44,610 INFO  [SoapUITestCaseRunner] running step [Login]
+2020-08-25 18:38:44,963 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:44,966 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:44,971 INFO  [SoapUITestCaseRunner] running step [Add Customer]
+2020-08-25 18:38:45,335 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:45,335 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:45,336 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-08-25 18:38:45,827 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:45,836 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:45,868 INFO  [SoapUITestCaseRunner] running step [Add Reward Points to Customer By Id]
+2020-08-25 18:38:46,256 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:46,256 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id - Verify Reward]
+2020-08-25 18:38:46,744 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:46,744 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:46,745 INFO  [SoapUITestCaseRunner] running step [Delete Customer By Id]
+2020-08-25 18:38:47,124 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:47,125 INFO  [SoapUITestCaseRunner] running step [Logout]
+2020-08-25 18:38:47,489 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:47,492 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add Customer Add Reward Points], time taken: 2779ms, status: FINISHED
+2020-08-25 18:38:47,494 INFO  [log] Status: FINISHED, time taken for TestCase was: 2779 ms
+2020-08-25 18:38:47,499 INFO  [log] Number of test steps which ran: 7
+2020-08-25 18:38:47,499 INFO  [log] Dinesh
+2020-08-25 18:38:47,501 INFO  [log] Test13
+2020-08-25 18:38:47,504 INFO  [log] dineshtest13@gmail.com
+2020-08-25 18:38:47,504 INFO  [log] passwordtest13
+2020-08-25 18:38:47,509 INFO  [log] passwordtest13
+2020-08-25 18:38:47,510 INFO  [log] 1-541-754-5313
+2020-08-25 18:38:47,512 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add Customer Add Reward Points]
+2020-08-25 18:38:47,516 INFO  [SoapUITestCaseRunner] running step [Login]
+2020-08-25 18:38:47,896 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:47,900 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:47,903 INFO  [SoapUITestCaseRunner] running step [Add Customer]
+2020-08-25 18:38:48,254 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:48,256 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:48,257 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-08-25 18:38:48,705 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:48,705 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:48,706 INFO  [SoapUITestCaseRunner] running step [Add Reward Points to Customer By Id]
+2020-08-25 18:38:49,085 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:49,085 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id - Verify Reward]
+2020-08-25 18:38:49,455 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:49,456 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:49,461 INFO  [SoapUITestCaseRunner] running step [Delete Customer By Id]
+2020-08-25 18:38:49,804 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:49,805 INFO  [SoapUITestCaseRunner] running step [Logout]
+2020-08-25 18:38:50,684 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:50,685 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add Customer Add Reward Points], time taken: 3105ms, status: FINISHED
+2020-08-25 18:38:50,687 INFO  [log] Status: FINISHED, time taken for TestCase was: 3105 ms
+2020-08-25 18:38:50,692 INFO  [log] Number of test steps which ran: 7
+2020-08-25 18:38:50,693 INFO  [log] Dinesh
+2020-08-25 18:38:50,693 INFO  [log] Test14
+2020-08-25 18:38:50,694 INFO  [log] dineshtest14@gmail.com
+2020-08-25 18:38:50,695 INFO  [log] passwordtest14
+2020-08-25 18:38:50,697 INFO  [log] passwordtest14
+2020-08-25 18:38:50,700 INFO  [log] 1-541-754-6313
+2020-08-25 18:38:50,701 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add Customer Add Reward Points]
+2020-08-25 18:38:50,706 INFO  [SoapUITestCaseRunner] running step [Login]
+2020-08-25 18:38:51,084 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:51,086 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:51,087 INFO  [SoapUITestCaseRunner] running step [Add Customer]
+2020-08-25 18:38:51,459 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:51,459 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:51,460 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-08-25 18:38:51,810 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:51,811 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:51,816 INFO  [SoapUITestCaseRunner] running step [Add Reward Points to Customer By Id]
+2020-08-25 18:38:52,209 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:52,209 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id - Verify Reward]
+2020-08-25 18:38:52,606 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:52,607 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:52,609 INFO  [SoapUITestCaseRunner] running step [Delete Customer By Id]
+2020-08-25 18:38:53,005 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:53,005 INFO  [SoapUITestCaseRunner] running step [Logout]
+2020-08-25 18:38:53,389 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:53,389 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add Customer Add Reward Points], time taken: 2624ms, status: FINISHED
+2020-08-25 18:38:53,396 INFO  [log] Status: FINISHED, time taken for TestCase was: 2624 ms
+2020-08-25 18:38:53,400 INFO  [log] Number of test steps which ran: 7
+2020-08-25 18:38:53,401 INFO  [log] Dinesh
+2020-08-25 18:38:53,403 INFO  [log] Test15
+2020-08-25 18:38:53,404 INFO  [log] dineshtest15@gmail.com
+2020-08-25 18:38:53,408 INFO  [log] passwordtest15
+2020-08-25 18:38:53,410 INFO  [log] passwordtest15
+2020-08-25 18:38:53,410 INFO  [log] 1-541-754-7313
+2020-08-25 18:38:53,414 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add Customer Add Reward Points]
+2020-08-25 18:38:53,417 INFO  [SoapUITestCaseRunner] running step [Login]
+2020-08-25 18:38:53,887 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:53,887 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:53,888 INFO  [SoapUITestCaseRunner] running step [Add Customer]
+2020-08-25 18:38:54,531 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:54,531 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:54,532 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-08-25 18:38:54,889 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:54,890 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:54,893 INFO  [SoapUITestCaseRunner] running step [Add Reward Points to Customer By Id]
+2020-08-25 18:38:55,483 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:55,483 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id - Verify Reward]
+2020-08-25 18:38:55,975 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:55,975 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:55,982 INFO  [SoapUITestCaseRunner] running step [Delete Customer By Id]
+2020-08-25 18:38:56,445 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:56,445 INFO  [SoapUITestCaseRunner] running step [Logout]
+2020-08-25 18:38:56,815 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:56,816 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add Customer Add Reward Points], time taken: 3344ms, status: FINISHED
+2020-08-25 18:38:56,819 INFO  [log] Status: FINISHED, time taken for TestCase was: 3344 ms
+2020-08-25 18:38:56,820 INFO  [log] Number of test steps which ran: 7
+2020-08-25 18:38:56,825 INFO  [log] Dinesh
+2020-08-25 18:38:56,825 INFO  [log] Test16
+2020-08-25 18:38:56,828 INFO  [log] dineshtest16@gmail.com
+2020-08-25 18:38:56,831 INFO  [log] passwordtest16
+2020-08-25 18:38:56,832 INFO  [log] passwordtest16
+2020-08-25 18:38:56,837 INFO  [log] 1-541-754-8313
+2020-08-25 18:38:56,838 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add Customer Add Reward Points]
+2020-08-25 18:38:56,839 INFO  [SoapUITestCaseRunner] running step [Login]
+2020-08-25 18:38:57,409 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:57,409 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:57,411 INFO  [SoapUITestCaseRunner] running step [Add Customer]
+2020-08-25 18:38:57,783 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:57,783 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:57,785 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-08-25 18:38:58,149 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:58,150 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:58,152 INFO  [SoapUITestCaseRunner] running step [Add Reward Points to Customer By Id]
+2020-08-25 18:38:58,675 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:58,675 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id - Verify Reward]
+2020-08-25 18:38:59,021 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:38:59,021 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:59,027 INFO  [SoapUITestCaseRunner] running step [Delete Customer By Id]
+2020-08-25 18:38:59,389 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:59,392 INFO  [SoapUITestCaseRunner] running step [Logout]
+2020-08-25 18:38:59,974 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:38:59,975 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add Customer Add Reward Points], time taken: 3075ms, status: FINISHED
+2020-08-25 18:38:59,981 INFO  [log] Status: FINISHED, time taken for TestCase was: 3075 ms
+2020-08-25 18:38:59,983 INFO  [log] Number of test steps which ran: 7
+2020-08-25 18:38:59,987 INFO  [log] Dinesh
+2020-08-25 18:38:59,988 INFO  [log] Test17
+2020-08-25 18:38:59,991 INFO  [log] dineshtest17@gmail.com
+2020-08-25 18:38:59,993 INFO  [log] passwordtest17
+2020-08-25 18:38:59,998 INFO  [log] passwordtest17
+2020-08-25 18:38:59,998 INFO  [log] 1-541-754-9313
+2020-08-25 18:39:00,003 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add Customer Add Reward Points]
+2020-08-25 18:39:00,013 INFO  [SoapUITestCaseRunner] running step [Login]
+2020-08-25 18:39:00,464 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:39:00,465 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:39:00,473 INFO  [SoapUITestCaseRunner] running step [Add Customer]
+2020-08-25 18:39:00,927 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:39:00,928 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:39:00,931 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-08-25 18:39:01,303 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:39:01,304 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:39:01,306 INFO  [SoapUITestCaseRunner] running step [Add Reward Points to Customer By Id]
+2020-08-25 18:39:01,885 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:39:01,885 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id - Verify Reward]
+2020-08-25 18:39:02,265 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:39:02,266 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:39:02,267 INFO  [SoapUITestCaseRunner] running step [Delete Customer By Id]
+2020-08-25 18:39:02,850 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:39:02,850 INFO  [SoapUITestCaseRunner] running step [Logout]
+2020-08-25 18:39:03,221 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:39:03,222 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add Customer Add Reward Points], time taken: 3133ms, status: FINISHED
+2020-08-25 18:39:03,230 INFO  [log] Status: FINISHED, time taken for TestCase was: 3133 ms
+2020-08-25 18:39:03,231 INFO  [log] Number of test steps which ran: 7
+2020-08-25 18:39:03,232 INFO  [log] Dinesh
+2020-08-25 18:39:03,233 INFO  [log] Test18
+2020-08-25 18:39:03,236 INFO  [log] dineshtest18@gmail.com
+2020-08-25 18:39:03,242 INFO  [log] passwordtest18
+2020-08-25 18:39:03,247 INFO  [log] passwordtest18
+2020-08-25 18:39:03,252 INFO  [log] 1-541-754-10313
+2020-08-25 18:39:03,259 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add Customer Add Reward Points]
+2020-08-25 18:39:03,262 INFO  [SoapUITestCaseRunner] running step [Login]
+2020-08-25 18:39:03,620 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:39:03,621 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:39:03,624 INFO  [SoapUITestCaseRunner] running step [Add Customer]
+2020-08-25 18:39:03,970 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:39:03,970 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:39:03,971 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-08-25 18:39:04,350 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:39:04,351 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:39:04,354 INFO  [SoapUITestCaseRunner] running step [Add Reward Points to Customer By Id]
+2020-08-25 18:39:04,767 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:39:04,767 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id - Verify Reward]
+2020-08-25 18:39:05,131 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:39:05,131 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:39:05,135 INFO  [SoapUITestCaseRunner] running step [Delete Customer By Id]
+2020-08-25 18:39:05,496 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:39:05,496 INFO  [SoapUITestCaseRunner] running step [Logout]
+2020-08-25 18:39:05,846 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:39:05,847 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add Customer Add Reward Points], time taken: 2520ms, status: FINISHED
+2020-08-25 18:39:05,849 INFO  [log] Status: FINISHED, time taken for TestCase was: 2520 ms
+2020-08-25 18:39:05,852 INFO  [log] Number of test steps which ran: 7
+2020-08-25 18:39:05,854 INFO  [log] Dinesh
+2020-08-25 18:39:05,862 INFO  [log] Test19
+2020-08-25 18:39:05,863 INFO  [log] dineshtest19@gmail.com
+2020-08-25 18:39:05,868 INFO  [log] passwordtest19
+2020-08-25 18:39:05,870 INFO  [log] passwordtest19
+2020-08-25 18:39:05,871 INFO  [log] 1-541-754-11313
+2020-08-25 18:39:05,876 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add Customer Add Reward Points]
+2020-08-25 18:39:05,879 INFO  [SoapUITestCaseRunner] running step [Login]
+2020-08-25 18:39:06,366 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:39:06,366 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:39:06,367 INFO  [SoapUITestCaseRunner] running step [Add Customer]
+2020-08-25 18:39:06,714 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:39:06,714 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:39:06,715 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-08-25 18:39:07,093 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:39:07,097 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:39:07,102 INFO  [SoapUITestCaseRunner] running step [Add Reward Points to Customer By Id]
+2020-08-25 18:39:07,645 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:39:07,645 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id - Verify Reward]
+2020-08-25 18:39:08,025 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:39:08,026 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:39:08,028 INFO  [SoapUITestCaseRunner] running step [Delete Customer By Id]
+2020-08-25 18:39:08,374 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:39:08,374 INFO  [SoapUITestCaseRunner] running step [Logout]
+2020-08-25 18:39:08,904 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:39:08,906 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add Customer Add Reward Points], time taken: 2971ms, status: FINISHED
+2020-08-25 18:39:08,909 INFO  [log] Status: FINISHED, time taken for TestCase was: 2971 ms
+2020-08-25 18:39:08,914 INFO  [log] Number of test steps which ran: 7
+2020-08-25 18:39:08,914 INFO  [log] Dinesh
+2020-08-25 18:39:08,915 INFO  [log] Test20
+2020-08-25 18:39:08,916 INFO  [log] dineshtest20@gmail.com
+2020-08-25 18:39:08,917 INFO  [log] passwordtest20
+2020-08-25 18:39:08,920 INFO  [log] passwordtest20
+2020-08-25 18:39:08,926 INFO  [log] 1-541-754-12313
+2020-08-25 18:39:08,927 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add Customer Add Reward Points]
+2020-08-25 18:39:08,928 INFO  [SoapUITestCaseRunner] running step [Login]
+2020-08-25 18:39:09,492 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:39:09,492 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:39:09,501 INFO  [SoapUITestCaseRunner] running step [Add Customer]
+2020-08-25 18:39:09,895 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:39:09,896 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:39:09,905 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-08-25 18:39:10,524 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:39:10,525 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:39:10,527 INFO  [SoapUITestCaseRunner] running step [Add Reward Points to Customer By Id]
+2020-08-25 18:39:10,889 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:39:10,894 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id - Verify Reward]
+2020-08-25 18:39:11,489 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-08-25 18:39:11,489 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:39:11,504 INFO  [SoapUITestCaseRunner] running step [Delete Customer By Id]
+2020-08-25 18:39:11,890 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:39:11,892 INFO  [SoapUITestCaseRunner] running step [Logout]
+2020-08-25 18:39:12,303 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-08-25 18:39:12,305 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add Customer Add Reward Points], time taken: 3278ms, status: FINISHED
+2020-08-25 18:39:12,312 INFO  [log] Status: FINISHED, time taken for TestCase was: 3278 ms
+2020-08-25 18:39:12,313 INFO  [log] Number of test steps which ran: 7
+2020-08-25 18:39:12,314 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Data driven - Add 10 customers Add reward points Delete], time taken: 31120ms, status: FINISHED
+2020-08-25 18:39:12,315 INFO  [SoapUITestCaseRunner] Project [REST Ecommerce Project] finished with status [FINISHED] in 74289ms
+2020-08-25 18:39:21,864 WARN  [Tools] Could not delete temporary directory C:\Users\DINESH~1\AppData\Local\Temp\2906bdf3-d311-45c2-976f-c75ea3587cb2
+2020-08-25 18:39:21,879 WARN  [Tools] Could not delete temporary directory C:\Users\DINESH~1\AppData\Local\Temp\c63a14b7-97c6-4616-86ba-998633323612
